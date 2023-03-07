@@ -1,6 +1,5 @@
 <?php
 
-    require_once(__DIR__ . '/vendor/autoload.php');
     require_once(__DIR__ . '/nostrpostr.php');
 
     // can have as many relays in here as you need
@@ -14,7 +13,7 @@
     ];
 
     // a sample note to post. Include image URL etc here
-    $content = 'This is one last test posted at ' . time();
+    $content = 'Okay one more test posted at ' . time();
 
     // Can view the testing profile at https://coracle.social/people/npub1unckxgleat9ynw96jgh4jh7awwszp20dm62yqagm4hyf8s9qq25qh3na44/notes
     $privateKey = 'nsec1qqt4as5axgjw4c7ah377krtdc5y8jtau5lcrdsreutdnkrf8c95qrmm2d2';
