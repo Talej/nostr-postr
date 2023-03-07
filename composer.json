@@ -1,0 +1,11 @@
+{
+    "require": {
+        "swentel/nostr-php": "^1.0",
+        "simplito/elliptic-php": "^1.0",
+        "public-square/phpecc": "^0.1.2",
+        "bitwasp/bech32": "^0.0.1",
+        "ext-gmp": "*",
+        "mdanter/ecc": "^1.0",
+        "textalk/websocket": "^1.6"
+    }
+}
